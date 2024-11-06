@@ -1,6 +1,43 @@
+.container-snippet {
+  padding-block: 10px;
+}
+
 .flex-snippet {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.html {
+  background-color: #e44d26;
+}
+
+.css {
+  background-color: #2965f1;
+}
+
+.js {
+  background-color: #efd81d;
+}
+
+.react {
+  background-color: purple;
+}
+
+.pre {
+  background: black;
+  border-radius: 0 5px 5px 5px;
+  height: 200px;
+}
+
+.html,
+.css,
+.js,
+.react {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  padding: 3px 10px 0 10px;
+  width: fit-content;
 }
