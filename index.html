@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <script defer type="module" src="./js/main.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <script defer type="module" src="./js/main.js"></script>
+    <script defer type="module" src="./js/sandbox.js"></script>
     <title>HTML - CSS - JS Hub</title>
   </head>
   <body>
@@ -49,34 +50,24 @@
       </ul>
     </nav>
     <main class="line-break">
+      
       <!-- Text -->
       <section id="text" class="line-break mb">
         <h2 class="title">Text</h2>
-        <div>
-          <h1>I'm the heading 1.</h1>
-          <h2>I'm the heading 2</h2>
-          <h3>I'm the heading 3</h3>
-          <h4>I'm the heading 4</h4>
-          <h5>I'm the heading 5</h5>
-          <h6>I'm the heading 6</h6>
-        </div>
-        <p>I'm a paragraph.</p>
+        <iframe class="html-preview" id="html-preview"></iframe>
         <div class="grid-3">
           <!-- HTML Section -->
           <div class="html">
             <p>HTML</p>
-            <div class="code-snippet">
-              <pre><code>
-&lth1&gtI'm the heading. 1&lth1&gt
-&lth2&gtI'm the heading. 2&lth2&gt
-&lth3&gtI'm the heaging. 3&lth3&gt
-&lth4&gtI'm the heading. 4&lth4&gt
-&lth5&gtI'm the heading. 5&lth5&gt
-&lth6&gtI'm the heading. 6&lth6&gt
-
-&ltp&gtI'm a parahraph. 6&ltp&gt
-              </code></pre>
-            </div>
+            <textarea class="code-snippet" id="html-editor">
+<h1>I'm the heading 1</h1>
+<h2>I'm the heading 2</h2>
+<h3>I'm the heading 3</h3>
+<h4>I'm the heading 4</h4>
+<h5>I'm the heading 5</h5>
+<h6>I'm the heading 6</h6>
+<p>I'm a paragraph.</p>
+            </textarea>
           </div>
         </div>
       </section>
