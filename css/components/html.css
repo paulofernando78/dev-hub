@@ -1,0 +1,9 @@
+.html p {
+  background-color: #e44d26;
+  color: white;
+  font-size: .8rem;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  padding: 3px 10px 0 10px;
+  width: fit-content;
+}

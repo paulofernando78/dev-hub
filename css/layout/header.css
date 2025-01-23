@@ -1,0 +1,9 @@
+header {
+  background: black;
+  color: white;
+  padding-inline: 7px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}

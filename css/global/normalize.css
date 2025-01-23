@@ -1,0 +1,8 @@
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}

@@ -1,0 +1,120 @@
+/* components */
+@import "./components/html.css";
+@import "./components/css.css";
+@import "./components/js.css";
+@import "./components/button.css";
+
+/* global */
+@import "./global/reset.css";
+@import "./global/typography.css";
+
+/* layout */
+@import "./layout/header.css";
+@import "./layout/nav.css";
+
+/* lessons */
+@import "./lessons/border.css";
+@import "./lessons/border-animation.css";
+@import "./lessons/button-show-hide.css";
+@import "./lessons/center-div.css";
+@import "./lessons/keyboard.css";
+@import "./lessons/modal.css";
+
+/* utilities */
+@import "./ultilities/spacing.css";
+
+body {
+  max-width: 1519px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+kbd {
+  border-radius: 5px;
+}
+
+.important-notes {
+  background-color: rgba(255, 0, 0, 0.500);
+  color: white;
+  padding: 10px;
+}
+
+.title {
+  background: lightgray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: solid 2px gray;
+  font-weight: 900;
+}
+
+.code-snippet {
+  border-radius: 0 5px 5px 5px;
+  background: #1d1e22;
+  color: white;
+  padding-inline: 10px;
+  max-height: 250px;
+  overflow-x: auto;
+}
+
+.file {
+  font-family: "Courier New", Courier, monospace, serif;
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+
+.note {
+  border: solid 2px red;
+  padding: 5px 7px;
+  border-radius: 5px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.line-break {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.flex {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.flex-8px-center {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 8px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  gap: 8px;
+}
+
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
+@media (width < 1000px) {
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 100%;
+  }
+}

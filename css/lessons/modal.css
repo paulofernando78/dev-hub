@@ -1,0 +1,16 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1519px;
+  padding: 10px;
+}
+
+.modal p {
+  margin-bottom: 1.125rem;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}

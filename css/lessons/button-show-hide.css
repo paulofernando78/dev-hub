@@ -1,0 +1,6 @@
+#element {
+  display: none;
+  background: red;
+  padding: 10px;
+  width: fit-content;
+}

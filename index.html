@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <title>HTML - CSS - JS Hub</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="flex-8px-center">
+        <span class="material-symbols-outlined">
+          menu
+          </span>
+        <h1>HTML / CSS / JS Hub</h1>
+      </div>
+    </header>
+    <!-- Important notes -->
+    <div class="important-notes line-break">
+      <p><strong>Important Notes</strong></p>
+      <ul>
+        <li>Learn how to create snippets</li>
+        <li>Install important extensions</li>
+        <li>• htmltagwrap:</li>
+        <li>• ESLint</li>
+        <li>• HTMLHint</li>
+        <li>• Snippet Creator</li>
+      </ul>
+    </div>
+    <!-- Nav -->
+    <nav class="line-break mb">
+      <ul>
+        <li><a href="#text">Text</a></li>
+        <li><a href="#abbr">Abbreviation &ltabbr&gt</a></li>
+        <li><a href="#border">Border &ltborder&gt</a></li>
+        <li>
+          <ul>
+            <li><a href="#border-animation">Border Animation</a></li>
+          </ul>
+        </li>
+        <li><a href="#button-show-hide">Button Show / Hide</a></li>
+        <li><a href="#center-div">Center a &ltdiv&gt</a></li>
+        <li><a href="#data-list">Data List &ltdatalist&gt</a></li>
+        <li><a href="#modal-dialog">Modal &ltdialog&gt</a></li>
+        <li><a href="#kbd">Keyboard &ltkbd&gt</a></li>
+      </ul>
+    </nav>
+    <main class="line-break">
+      <!-- Text -->
+      <section id="text" class="line-break mb">
+        <h2 class="title">Text</h2>
+        <div>
+          <h1>I'm the heading 1.</h1>
+          <h2>I'm the heading 2</h2>
+          <h3>I'm the heading 3</h3>
+          <h4>I'm the heading 4</h4>
+          <h5>I'm the heading 5</h5>
+          <h6>I'm the heading 6</h6>
+        </div>
+        <p>I'm a paragraph.</p>
+        <div class="grid-3">
+          <!-- HTML Section -->
+          <div class="html">
+            <p>HTML</p>
+            <div class="code-snippet">
+              <pre><code>
+&lth1&gtI'm the heading. 1&lth1&gt
+&lth2&gtI'm the heading. 2&lth2&gt
+&lth3&gtI'm the heaging. 3&lth3&gt
+&lth4&gtI'm the heading. 4&lth4&gt
+&lth5&gtI'm the heading. 5&lth5&gt
+&lth6&gtI'm the heading. 6&lth6&gt
+
+&ltp&gtI'm a parahraph. 6&ltp&gt
+              </code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Abbrevition <abbr> -->
+      <section id="abbr" class="line-break mb">
+        <h2 class="title">Abbreviation &ltabbr&gt</h2>
+        <div>
+          <abbr title="Hyper Text MarkUp Language">HTML</abbr>
+          <abbr title="Cascading Style Sheets">CSS</abbr>
+          <abbr title="Javascript">JS</abbr>
+        </div>
+        <div class="line-break">
+          <!-- HTML -->
+          <div class="html">
+            <p>HTML</p>
+            <div class="code-snippet">
+              <pre><code>
+&ltabbr title="Hyper Text MarkUp Language"&gtHTML&lt/abbr&gt
+&ltabbr title="Cascading Style Sheets"&gtCSS&lt/abbr&gt
+&ltabbr title="Javascript"&gtJS&lt/abbr&gt
+&ltabbr title="Javascript"&gtJS&lt/abbr&gt
+              </code></pre>
+            </div>
+          </div>
+          <!-- Notes -->
+          <div class="note line-break">
+            <p><strong>Notes</strong></p>
+            <p>
+              By default, it displays an abbreviation or acronym, and when you
+              hover over it (on desktop), a tooltip shows the full form of the
+              abbreviation, defined bu the <kbd>title</kbd> attribute.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Border <border> -->
+      <section id="border" class="line-break">
+        <h2 class="title">Border &ltborder&gt</h2>
+        <div class="grid-center">
+          <div class="flex">
+            <div class="solid grid-center"><p>solid</p></div>
+            <div class="dotted grid-center"><p>dotted</p></div>
+            <div class="dashed grid-center"><p>dashed</p></div>
+            <div class="double grid-center"><p>double</p></div>
+            <div class="groove grid-center"><p>groove</p></div>
+            <div class="ridge grid-center"><p>ridge</p></div>
+            <div class="inset grid-center"><p>inset</p></div>
+            <div class="outset grid-center"><p>outset</p></div>
+            <div class="mix grid-center"><p>solid dotted dashed double</p></div>
+          </div>
+        </div>
+        <div class="grid-2">
+          <!-- HTML -->
+          <div class="html">
+            <p>HTML</p>
+            <div class="code-snippet">
+              <pre><code>
+&ltdiv class"solid"&gtsolid&lt/div&gt
+&ltdiv class"dotted"&gtdotted&lt/div&gt
+&ltdiv class"dashed"&gtdashed&lt/div&gt
+&ltdiv class"double"&gtdouble&lt/div&gt
+&ltdiv class"groove"&gtgroove&lt/div&gt
+&ltdiv class"ridge"&gtridge&lt/div&gt
+&ltdiv class"inset"&gtinset&lt/div&gt
+&ltdiv class"outset"&gtoutset&lt/div&gt
+&ltdiv class"mix"&gtsolid dotted dashed double&lt/div&gt
+                </code></pre>
+            </div>
+          </div>
+          <!-- CSS -->
+          <div class="css">
+            <p>CSS</p>
+            <div class="code-snippet">
+              <pre><code>
+.solid,
+.dotted,
+.dashed {
+  border-width: 2px;
+  border-color: black;
+  height: fit-content;
+  padding: 10px;
+}
+
+.solid {
+  border-style: solid;
+}
+
+.dotted {
+  border-style: dotted;
+}
+
+.dashed {
+  border-style: dashed;
+}
+
+.double {
+  border-style: double;
+}
+
+.groove {
+  border-style: groove;
+}
+
+.ridge {
+  border-style: ridge;
+}
+
+.inset {
+  border-style: inset;
+}
+
+.outset {
+  border-style: outset;
+}
+
+.mix {
+  border-style: solid dotted dashed double;
+}
+                </code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Border Animation  -->
+      <section id="border-animation" class="line-break mb">
+        <h3 class="title">Border Animation</h3>
+        <div class="border-background">
+          <div class="card line-break">
+            <h4>Border Animation</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+              officia nihil.
+            </p>
+          </div>
+        </div>
+        <div class="grid-2">
+          <!-- HTML Section -->
+          <div class="html">
+            <p>HTML</p>
+            <div class="code-snippet">
+              <pre><code>
+&ltdiv class="card line-break"&gt
+  &lth4&gtBorder Animation&lt/h4&gt
+  &ltp&gt
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+    officia nihil.
+  &lt/p&gt
+&lt/div&gt
+      </code></pre>
+            </div>
+          </div>
+          <!-- CSS Section -->
+          <div class="css">
+            <p>CSS</p>
+            <div class="code-snippet">
+              <pre><code>
+.border-background {
+  background: black;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#border-animation .card {
+  color: white;
+}
+
+#border-animation .card p {
+  color: lightgray;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 2em;
+  width: 250px;
+  background: #1c1f2b;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+}
+
+.card::after,
+.card::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(
+    from var(--angle),
+    transparent 30%,
+    blue, green, red
+  );
+  z-index: -1;
+  padding: 3px;
+  border-radius: 5px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: 3s spin linear infinite;
+}
+
+.card::before {
+  filter: blur(1.5rem);
+  opacity: .8;
+}
+
+@property --angle {
+  syntax: "&ltangle&gt";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
+              </code></pre>
+            </div>
+          </div>
+        </div>
+        <!-- Notes Section -->
+        <div class="note line-break">
+          <p><strong>Notes</strong></p>
+          <p>...</p>
+        </div>
+      </section>
+
+      <!-- Button Show / Hide -->
+      <section id="button-show-hide" class="line-break mb">
+        <h2 class="title">Button Show / Hide</h2>
+        <button id="toggle-button">Click me!</button>
+        <div id="element">Hey there!</div>
+        <div class="grid-3">
+          <!-- HTML -->
+          <div class="html">
+            <p>HTML</p>
+            <div class="code-snippet">
+              <pre><code>
+&ltbutton id"toggle-button"&gtClick me!&lt/button&gt
+&ltdiv id"element"&gtHey there!!&lt/div&gt
+              </code></pre>
+            </div>
+          </div>
+          <!-- CSS -->
+          <div class="css">
+            <p>CSS</p>
+            <div class="code-snippet">
+              <pre><code>
+#element {
+  display: none;
+  background: red;
+  padding: 10px;
+  width: fit-content;
+}
+              </code></pre>
+            </div>
+          </div>
+          <!-- JS -->
+          <div class="js">
+            <p>JS</p>
+            <div class="code-snippet">
+              <pre><code>
+<span class="file">main.js</span>
+import { showHide } from "./lessons/show-hide.js"
+                
+document.getElementById("toggle-button").addEventListener("click", () => {
+showHide("element")
+})
+
+<span class="file">button-show-hide.js</span>
+export function showHide(id) {
+  const element = document.getElementById(id);
+  if (element.style.display === "block") {
+    element.style.display = "none";
+  } else {
+    element.style.display = "block";
+  }
+}
+              </code></pre>
+            </div>
+          </div>
+        </div>
+        <!-- Notes -->
+        <div class="note line-break">
+          <p><strong>Notes</strong></p>
+          <p>
+            You don't need the onclick attribute in the HTML because you are
+            already adding an event listener in your JavaScript. The
+            addEventListener method is a better practice since it separates HTML
+            from JavaScript logic, keeping your code cleaner and more
+            maintainable.
+          </p>
+          <p>
+            Using an event listener is generally preferred because it provides
+            better separation of concerns. It's also more flexible, allowing you
+            to attach multiple listeners to the same element, whereas onclick
+            replaces any existing inline event handler.
+          </p>
+        </div>
+      </section>
+
+      <!-- Center an element  -->
+      <section id="center-div" class="line-break mb">
+        <h2 class="title">Center a &ltdiv&gt</h2>
+        <div class="center-div"><p>Center</p></div>
+        <div class="grid-2">
+          <!-- HTML Section -->
+          <div class="html">
+            <p>HTML</p>
+            <div class="code-snippet">
+              <pre><code>
+&ltdiv class=center-div&gtcenter&lt/div&gt
+              </code></pre>
+            </div>
+          </div>
+          <!-- CSS Section -->
+          <div class="css">
+            <p>CSS</p>
+            <div class="code-snippet">
+              <pre><code>
+.center-div {
+  background: orange;
+  padding: 10px;
+  width: max-content;
+  
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+              </code></pre>
+            </div>
+          </div>
+        </div>
+        <!-- Notes Section -->
+        <div class="note line-break">
+          <p><strong>Notes</strong></p>
+          <div>
+            <p>
+              top: 50% and tranform: translate(-50%) center vertically only.
+            </p>
+            <p>
+              left: 50% and tranform: translate(-50%) center vertically only.
+            </p>
+            <p>It's possible to write only <kbd>translate: -50% -50%;</kbd></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Data List <datalist> -->
+      <section id="data-list" class="line-break mb">
+        <h2 class="title">Data List &ltdatalist&gt</h2>
+        <div>
+          <p>Search for cities.</p>
+          <input type="input" list="cities" />
+        </div>
+        <datalist id="cities">
+          <option value="Amsterdam"></option>
+          <option value="Liverpool"></option>
+          <option value="Los Angeles"></option>
+          <option value="New York"></option>
+          <option value="Sao Paulo"></option>
+          <option value="Tokyo"></option>
+        </datalist>
+        <div>
+          <!-- HTML -->
+          <div class="html">
+            <p>HTML</p>
+            <div class="code-snippet">
+              <pre><code>
+&ltinput type=input list=cities /&gt
+&ltdatalist id="cities" /&gt
+  &ltoption value="Amsterdam"&gt&lt/option&gt
+  &ltoption value="Liverpool"&gt&lt/option&gt
+  &ltoption value="Los Angeles"&gt&lt/option&gt
+  &ltoption value="New York"&gt&lt/option&gt
+  &ltoption value="Sao Paulo"&gt&lt/option&gt
+  &ltoption value="Tokyo"&gt&lt/option&gt
+                  </code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Keyboard <kbd> -->
+      <section id="kbd" class="line-break mb">
+        <h2 class="title">Keyboard &ltkbd&gt</h2>
+        <p>To save the file, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+        <div class="grid-2">
+          <!-- HTML -->
+          <div class="html">
+            <p>HTML</p>
+            <div class="code-snippet">
+              <pre><code>
+&ltp&gtTo save the file, press &ltkbd&gtCtrl&lt/kbd&gt + &ltkbd&gtS&lt/kbd&gt.&lt/p&gt
+              </code></pre>
+            </div>
+          </div>
+          <!-- CSS -->
+          <div class="css">
+            <p>CSS</p>
+            <div class="code-snippet">
+              <pre><code>
+kbd {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+              </code></pre>
+            </div>
+          </div>
+        </div>
+        <!-- Notes -->
+        <div class="note line-break">
+          <p><strong>Notes</strong></p>
+          <p>By default, &ltkbd&gt inherets the font monospace.</p>
+        </div>
+      </section>
+
+      <!-- Modal <dialog> -->
+      <section id="modal-dialog" class="line-break">
+        <h2 class="title">Modal &ltdialog&gt</h2>
+        <button id="open-modal">Open Modal</button>
+        <dialog class="modal" id="modal">
+          <p>This is a Modal!</p>
+          <button id="close-modal">Close</button>
+        </dialog>
+        <div class="grid-3">
+          <!-- HTML -->
+          <div class="html">
+            <p>HTML</p>
+            <div class="code-snippet">
+              <pre><code>
+&ltbutton id="open-modal&gtOpen Modal&lt/button&gt 
+&ltdialog class="modal" id="modal"&gt
+  &ltp&gtThis is a modal!&lt/p&gt
+  &ltbutton&gtClose 
+&lt/dialog&gt
+              </code></pre>
+            </div>
+          </div>
+          <!-- CSS -->
+          <div class="css">
+            <p>CSS</p>
+            <div class="code-snippet">
+              <pre><code>
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1519px;
+  padding: 10px;
+}
+
+.modal p {
+  margin-bottom: 1.125rem;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+              </code></pre>
+            </div>
+          </div>
+          <!-- JS -->
+          <div class="js">
+            <p>JS</p>
+            <div class="code-snippet">
+              <pre><code>
+<span class="file">main.js</span>
+import { showHide } from "./lessons/modal.js"
+                
+
+
+<span class="file">button-show-hide.js</span>
+export function showHide(id) {
+  const element = document.getElementById(id);
+  if (element.style.display === "block") {
+    element.style.display = "none";
+  } else {
+    element.style.display = "block";
+  }
+}
+              </code></pre>
+            </div>
+          </div>
+        </div>
+        <!-- Notes -->
+        <div class="note line-break">
+          <p><strong>Notes</strong></p>
+          <div>
+            <p>
+              By default, pressing the Esc <strong>key</strong> will close the
+              modal "dialog".
+            </p>
+            <p>Use <kbd>method=dialog</kbd> with forms.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
